@@ -1,0 +1,63 @@
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 1.125em;
+  margin: 0;
+  text-align: center;
+  background-color: hsl(185, 75%, 39%);
+}
+
+section {
+  width: 18%;
+  height: auto;
+  background-color: white;
+  margin: 100px auto;
+}
+
+.card-layout {
+  display: block;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.bg-pattern-card {
+  width: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+  margin: 0 auto 50px auto;
+}
+
+.image-victor {
+  border-radius: 100px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 54%;
+  left: 33%;}
+
+p {
+  line-height: 2;
+  margin: 0;
+}
+
+.card-name {
+  font-weight: 700;
+}
+
+.followers {
+  font-weight: 700;
+}
+
+.bottom_panel {
+  display: inline-grid;
+  margin: 10px 10px 30px 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

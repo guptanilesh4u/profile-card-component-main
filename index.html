@@ -1,35 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <!-- Get google font, if not available on user machine -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;700&display=swap" rel="stylesheet">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link href="./css/styles.css" type="text/css" rel="stylesheet">
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!-- <style>
+
+  </style> -->
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
+  <span class="bg-pattern-top"></span>
+  <span class="bg-pattern-bottom"></span>
+  <section>
+    <div class="card-layout">
+      <img class="bg-pattern-card" src="./images/bg-pattern-card.svg" alt="top-pattern" />
+      <img class="image-victor" src="./images/image-victor.jpg" alt="image-victor" />
+      <p>
+        <span class="card-name">Victor Crest</span> 26
+      </p>
+      <p>
+        London
+      </p>
+      <hr>
+      <div class="bottom-container">
+        <span class="bottom_panel">
+          <p class="followers">80K</p>
+          Followers
+        </span>
+        <span class="bottom_panel">
+          <p class="followers">803K</p>
+          Likes
+        </span>
+        <span class="bottom_panel">
+          <p class="followers">1.4K</p>
+          Photos
+        </span>
+      </div>
+    </div>
+  </section>
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://guptanilesh4u.github.io/cv/" target="_blank">Nilesh Kumar Gupta</a>.
   </div>
 </body>
+
 </html>
